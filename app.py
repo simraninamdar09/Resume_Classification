@@ -10,6 +10,8 @@ from sklearn.svm import SVC
 from sklearn.preprocessing import LabelEncoder
 from wordcloud import WordCloud, STOPWORDS
 
+nltk.download('stopwords')
+
 import warnings
 warnings.filterwarnings("ignore")
 
