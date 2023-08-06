@@ -9,7 +9,7 @@ import pickle
 from sklearn.svm import SVC
 from sklearn.preprocessing import LabelEncoder
 from wordcloud import WordCloud, STOPWORDS
-
+import nltk
 nltk.download('stopwords')
 
 import warnings
