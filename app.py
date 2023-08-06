@@ -1,3 +1,6 @@
+import nltk
+nltk.download('stopwords')
+nltk.download('wordnet')
 
 import pandas as pd
 import streamlit as st
@@ -9,9 +12,7 @@ import pickle
 from sklearn.svm import SVC
 from sklearn.preprocessing import LabelEncoder
 from wordcloud import WordCloud, STOPWORDS
-import nltk
-nltk.download('stopwords')
-nltk.download('wordnet')
+
 import warnings
 warnings.filterwarnings("ignore")
 
