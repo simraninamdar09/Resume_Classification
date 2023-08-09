@@ -22,7 +22,7 @@ st.title("Resume Classification")
 path = r'E:\Data Science\Datascience Intership Project\Project DS3\resum'
 
 #Uploaded file
-uploaded_file = st.file_uploader("Chose a file",type=['Docx'])
+uploaded_file = st.file_uploader("Chose a file",type=['Docx','pdf'])
 if uploaded_file is not None:
 
 
